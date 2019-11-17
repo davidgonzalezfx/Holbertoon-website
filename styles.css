@@ -1,76 +1,74 @@
 body {
-	background-image: url('https://ak5.picdn.net/shutterstock/videos/32603545/thumb/11.jpg');
-	background-repeat: repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	flex: auto;
+    background-image: url('https://ak5.picdn.net/shutterstock/videos/32603545/thumb/11.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: "Copperplate";
+    font-family: "Copperplate";
 }
 
 h1 {
-	flex-grow: 2;
-	font-size: 50px;
-	margin-top: 20px;
+    flex-grow: 2;
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 header {
-	border-bottom: none;
-	color: white;
+    border-bottom: none;
+    color: white;
 }
 
 article {
-	margin-right: 40px;
-	padding: 50px 50px 50px 50px;	
-	flex:2;
-	overflow-y:auto
+    margin-right: 40px;
+    padding: 50px 50px 50px 50px;
+    flex:2;
+    overflow-y:auto
 }
 
 article, aside, footer {
-	background-color: white;
+    background-color: white;
 }
 
 footer {
-	margin-top: 40px;
-	text-align: center;
+    margin-top: 40px;
+    text-align: center;
 }
 
 aside {
-	flex: 1;
-	overflow-y:auto
+    flex: 1;
+    overflow-y:auto
 }
 
 p {
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-a {
-	color: inherit;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .container, .navbar {
-	display: flex;
-	flex-direction: row;
-	flex: auto;
-	margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
 }
 
-.navbar a {
-	color: white;
+.navbar li a {
+    color: white;
 }
 
-.navbar li {
-	margin-left: 50px;
+button a {
+    color: black;
+}
+
+header li {
+    margin-left: 50px;
 }
 
 @media only screen and (max-width: 800px) {
-  article {
-    margin-left: 40px;
-  }
+    article {
+	margin-left: 40px;
+    }
 
 }
