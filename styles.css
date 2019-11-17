@@ -12,11 +12,6 @@ h1, h2, h3, h4, h5 {
 	font-family: "Copperplate";
 }
 
-/*img {
-	width: 480px;
-	height:250px;
-}*/
-
 h1 {
 	flex-grow: 2;
 	font-size: 50px;
@@ -56,8 +51,13 @@ p {
 
 .container, .navbar {
 	display: flex;
-	flex-direction: row
+	flex-direction: row;
 }
+
+.navbar a {
+	color: white;
+}
+
 
 .header {
 	
