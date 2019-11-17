@@ -49,20 +49,28 @@ p {
 	margin-top: 10px;
 }
 
+a {
+	color: inherit;
+}
+
 .container, .navbar {
 	display: flex;
 	flex-direction: row;
+	flex: auto;
+	margin-bottom: 3%;
 }
 
 .navbar a {
 	color: white;
 }
 
-
-.header {
-	
-}
-
 .navbar li {
 	margin-left: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  article {
+    margin-left: 40px;
+  }
+
 }
