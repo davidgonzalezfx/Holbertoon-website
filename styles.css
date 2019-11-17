@@ -1,17 +1,21 @@
 body {
-	background-image: url('https://livecoins.com.br/wp-content/uploads/2019/07/bitcoin-4317828_1280-696x464.jpg');
+	background-image: url('https://ak5.picdn.net/shutterstock/videos/32603545/thumb/11.jpg');
 	background-repeat: repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	flex: auto;
-	color: white;
 
 }
 
 h1, h2, h3, h4, h5 {
 	font-family: "Copperplate";
 }
+
+/*img {
+	width: 480px;
+	height:250px;
+}*/
 
 h1 {
 	flex-grow: 2;
@@ -32,7 +36,7 @@ article {
 }
 
 article, aside, footer {
-	background-color: rgba(199, 208, 216, 0.7);
+	background-color: white;
 }
 
 footer {
