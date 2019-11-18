@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: auto;
+  text-align: justify;  
 
 }
 
@@ -16,6 +17,10 @@ h1 {
   flex-grow: 2;
   font-size: 50px;
   margin-top: 20px;
+}
+
+a {
+  color: gray;
 }
 
 header {
