@@ -97,6 +97,10 @@ header li {
     flex-direction: column;
   }
 
+  .exchange {
+    font-size: 13px;
+  }
+
   header h1 {
     text-align: center;
   }
