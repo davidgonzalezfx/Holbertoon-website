@@ -58,6 +58,16 @@ p {
   color: white;
 }
 
+.more {
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 2px;
+  color: black;
+  border-radius: 4px;
+  text-decoration: none
+}
+
 button a {
   color: black;
 }
