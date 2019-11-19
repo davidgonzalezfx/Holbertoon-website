@@ -9,13 +9,21 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body class="works_on_smartphone" >
-    <header class="container header">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script>
+    <header class="container">
+      <div class="right">
+        <div class="fb-share-button" data-href="http://3.85.112.173/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3.85.112.173%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+        data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js"></script>    
+      </div>
       <h1>Bitcoin news</h1>
       <ul class="navbar">
-  <li><h2><a href="index.html">Home</a></h2></li>
-  <li><h2><a href="exchange.html">Exchange</a></h2></li>
-  <li><h2><a href="tweets.html">Tweets</a></h2></li>
-  <li><h2><a href="about.html">About</a></h2></li>
+        <li><h2><a href="index.html" >Home</a></h2></li>
+        <li><h2><a href="exchange.html" >Exchange</a></h2></li>
+        <li><h2><a href="tweets.html" >Tweets</a></h2></li>
+        <li><h2><a href="about.html" >About</a></h2></li>
       </ul>
     </header>
     <main class="container">
@@ -34,7 +42,23 @@
       <a href="blog1.html" class="more">Last blog post</a>
     </article>
     <aside>
-      <p>Lorem ipsum dolor sit amet, consectetur adipi sit amet, consectetur adipi sit amet, consectetur adipi</p>
+      <div id="disqus_thread"></div>
+      <script>
+            
+      var disqus_config = function () {
+      this.page.url = "http://3.85.112.173/index.html";
+      this.page.identifier = "home";
+      };
+      
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://bitcoin-news-3.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
     </aside>
     </main>
     <footer>

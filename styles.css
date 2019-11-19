@@ -4,13 +4,16 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  flex: auto;
   text-align: justify;  
 
 }
 
 h1, h2, h3, h4, h5 {
   font-family: "Copperplate";
+}
+
+main {
+  flex: auto;
 }
 
 h1 {
@@ -52,6 +55,12 @@ aside {
 p {
   font-size: 20px;
   margin-top: 10px;
+}
+
+div.right {
+  display: flex;
+  margin-left: auto;
+  order: 3;
 }
 
 .container, .navbar {
@@ -120,5 +129,9 @@ header li {
 
   .navbar h2 {
     font-size: 14px;
+  }
+
+  div.fb-share-button {
+    width: 70px;
   }
 }
