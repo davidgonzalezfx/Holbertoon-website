@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5 {
   font-family: "Copperplate";
 }
 
+h3 {
+  font-weight: bold;
+}
+
 main {
   flex: auto;
 }
@@ -49,7 +53,8 @@ footer {
 
 aside {
   flex: 1;
-  overflow-y:auto
+  overflow-y:auto;
+  height: fit-content;
 }
 
 p {
